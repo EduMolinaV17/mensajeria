@@ -27,6 +27,7 @@ body {
   height: 55px;
   align-items: center;
   flex: 0 0 50px;
+  padding-left: 10px;
 }
 .maria1 {
   width: 50px;
@@ -79,7 +80,7 @@ body {
   background-color: #a491d2;
   color: white;
 }
-.boton button:hover{
+.boton button:hover {
   color: white;
 }
 .hijo1 {
@@ -95,6 +96,7 @@ body {
   height: 70px;
   align-items: center;
   flex: 0 0 300px;
+  padding-left: 10px;
 }
 .contacto1 {
   width: 50px;
