@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", open sans-serif;
 }
 .maestro {
   display: flex;
@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   flex-basis: 300px;
   min-height: 100vh;
-  border-right: #e8ebe4;
+  border-right: #e8ebe4 2px;
   border-right-style: solid;
 }
 .hijo {
@@ -19,7 +19,7 @@ body {
   width: 300px;
   height: 55px;
   justify-content: space-between;
-  border-bottom: #e8ebe4;
+  border-bottom: #e8ebe4 2.5px;
   border-bottom-style: solid;
 }
 .maria {
@@ -47,11 +47,13 @@ body {
 .maria2 h6 {
   margin: 0;
   padding-top: 5px;
+  color: #000000;
 }
 .maria2 p {
   font-size: 10px;
   width: 80px;
   margin: 0;
+  color: #828485;
 }
 .maria-2 {
   display: flex;
@@ -69,7 +71,7 @@ body {
   width: 300px;
   height: 100px;
   justify-content: center;
-  border-bottom: #e8ebe4;
+  border-bottom: #e8ebe4 2px;
   border-bottom-style: solid;
   align-items: center;
 }
@@ -77,12 +79,15 @@ body {
   background-color: #a491d2;
   color: white;
 }
+.boton button:hover{
+  color: white;
+}
 .hijo1 {
   display: flex;
   width: 300px;
   height: 70px;
   justify-content: flex-start;
-  border-bottom: #e8ebe4;
+  border-bottom: #e8ebe4 2.5px;
   border-bottom-style: solid;
 }
 .contacto {
@@ -110,11 +115,13 @@ body {
 .contacto2 h6 {
   margin: 0;
   padding-top: 5px;
+  color: #000000;
 }
 .contacto2 p {
   font-size: small;
   width: 130px;
   margin: 0;
+  color: #444749;
 }
 .hijo2 {
   display: flex;
@@ -132,15 +139,17 @@ body {
 .contacto3 h6 {
   margin: 0;
   padding-top: 5px;
+  color: #000000;
 }
 .contacto3 p {
   font-size: small;
   width: 130px;
   margin: 0;
+  color: #444749;
 }
 .madre {
   display: flex;
-  background-color: #f2effa;
+  background-color: #f0eef6;
   flex-direction: column;
   align-items: center;
   justify-content: center;
