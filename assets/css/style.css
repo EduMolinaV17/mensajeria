@@ -11,6 +11,8 @@ body {
   flex-direction: column;
   flex-basis: 300px;
   min-height: 100vh;
+  border-right: #e8ebe4;
+  border-right-style: solid;
 }
 .hijo {
   display: flex;
@@ -142,7 +144,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 80.3vw;
+  min-width: 80.2vw;
 }
 .hijo3 {
   display: flex;
